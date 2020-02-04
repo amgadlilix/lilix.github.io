@@ -1,0 +1,39 @@
+*{
+	user-select: none;
+}
+i{
+	text-transform: none;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+	background-color: red;
+}
+.swiper-pagination-bullet{
+	background-color: grey;
+}
+.swiper-slide div.star{
+	margin-top: 15%;
+	padding: 50px;
+	text-align: center;
+}
+.swiper-slide div.star img{
+	width: 250px;
+}
+#logo{
+	text-align: center;
+	padding: 50px;
+	margin-top: 50%;
+}
+.most-liked{
+	width: 100%;
+	height: 30%;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+.over{
+	height: 85px;
+	background-color: black;
+	position: absolute;
+	left: 0;
+	right: 0;
+	filter: blur(23px);
+}
